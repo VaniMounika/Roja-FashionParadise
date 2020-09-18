@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+}
+.container-fluid{
+  /* padding: 3% 1.5%; */
+}
+#title{
+  background-color: #e3dfc8;
+  text-align: center;
+}
+.row1{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.sticker1{
+  width: 25%;
+}
+.sticker2{
+  width: 25%;
+}
+.sticker3{
+  width:37.5%;
+}
+.sticker4{
+  width: 300px;
+  padding-top: 50px;
+}
+h1{
+  font-size:5rem;
+  font-family: 'Great Vibes', cursive;
+  height: 80px;
+  font-weight: bolder;
+  position: relative;
+}
+@media (min-width:450px) and (max-width:800px)
+{
+h1{
+  font-size: 3rem;
+}
+}
+@media (max-width:450px)
+{
+h1{
+  font-size: 1.5rem;
+}
+}
+h1:hover{
+  color: #e11d74;
+}
+p{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.35rem;
+}
+span:hover{
+  color: #e11d74;
+}
+span{
+  text-decoration:underline;
+  text-decoration-style:double;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.gifs{
+  margin-top: 80px;
+}
+.btn{
+  background-color: #41444b;
+}
+
+/* HRZNTL RULE */
+hr{
+  width:15%;
+  border-top:10px dotted #838383;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+/* testimonials */
+
+.container-fluid{
+  padding: 3% 1.5%;
+}
+
+ #testimonials{
+  text-align: center;
+  background-color: #52575d;
+  color: #fddb3a;
+  }
+
+.testimonial-text{
+  width:50%;
+  font-size:1rem;
+  color: #f6f4e6;
+  margin-left:auto;
+  margin-right: auto;
+}
+em{
+  width:30%;
+  font-size:1rem;
+  margin-left:50%;
+}
+.icon{
+  color: gold;
+}
+
+/* Gallery */
+
+#Gallery{
+  text-align: center;
+  background-color: #fddb3a;
+  padding-bottom: 50px;
+}
+
+.Gallery_images{
+  width: 500px;
+  /* margin: 20px; */
+  /* padding: 10px */
+}
+.Gallery_images:hover{
+  background-color: #52575d;
+}
+.carousel-item{
+  background-color:black;
+}
+/* CONTACT */
+
+#Contact-us{
+  text-align: center;
+  background-color: #52575d;
+  color: #f6f4e6;
+
+}
+h3{
+  font-size: 1rem;
+}
+
+#footer{
+  text-align: center;
+  background-color: #fddb3a;
+}
+.footer-link{
+  color:#52575d;
+}
