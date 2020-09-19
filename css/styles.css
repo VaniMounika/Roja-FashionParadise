@@ -6,7 +6,7 @@ body{
   /* padding: 3% 1.5%; */
 }
 #title{
-  background-color: #e3dfc8;
+  background-color: #e7dec8;
   text-align: center;
 }
 .row1{
@@ -79,10 +79,18 @@ hr{
 .navbar{
   padding-left: 0;
   padding-right: 0;
+  padding-top: 20px;
 }
 .navbar-brand{
   font-size: 1.5rem;
   font-weight: bolder;
+}
+@media (max-width:600px)
+{
+  .navbar-brand{
+    font-size: 1.9rem;
+    font-weight: bolder;
+  }
 }
 .nav-item{
   padding: 0 10px;
@@ -90,6 +98,13 @@ hr{
 .nav-link{
   font-size: 1rem;
   font-weight: lighter;
+}
+@media (max-width:600px)
+{
+  .nav-link{
+    font-size: 1.8rem;
+    font-weight: normal;
+  }
 }
 
 /* testimonials */
@@ -160,4 +175,15 @@ h3{
 }
 .ct{
   padding-top: 30px;
+}
+.navcon{
+  padding-top:0;
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (max-width:500px)
+{
+  .eye{
+    width: 90px;
+  }
 }
