@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 .container-fluid{
   /* padding: 3% 1.5%; */
@@ -49,7 +49,7 @@ h1:hover{
   color: #e11d74;
 }
 p{
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.35rem;
 }
 span:hover{
@@ -95,7 +95,7 @@ hr{
 /* testimonials */
 
 .container-fluid{
-  padding: 3% 1.5%;
+  padding: 2% 1.5%;
 }
 
  #testimonials{
@@ -157,4 +157,7 @@ h3{
 }
 .footer-link{
   color:#52575d;
+}
+.ct{
+  padding-top: 30px;
 }
